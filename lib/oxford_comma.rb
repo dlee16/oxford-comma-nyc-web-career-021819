@@ -9,3 +9,4 @@ else
 return array(0..-2).joins(", ") + "and" + array.last
 end
 end
+end
