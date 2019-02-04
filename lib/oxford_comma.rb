@@ -6,6 +6,6 @@ return array.join(" and ")
 else
 array.length >= 3
 else 
-return array(1..-2).joins(", ") + "and" + array.last
+return array(0..-2).joins(", ") + "and" + array.last
 end
 end
